@@ -19,19 +19,19 @@ gcc -Wall -Wextra -std=c11 -g -o Bai1 Bai1.c
 
 ### Cú pháp:
 ```bash
-./Bai1 <file_van_ban> <file_stopwords> <file_ket_qua>
+./Bai1 <file_van_ban> <file_stopwords>
 ```
 
 ### Ví dụ lệnh:
 ```bash
 # Ví dụ 1: Sử dụng file văn bản mẫu
-./Bai1 vanban.txt stopw.txt result.txt
+./Bai1 vanban.txt stopw.txt
 
 # Ví dụ 2: Sử dụng file alice30.txt
-./Bai1 alice30.txt stopw.txt result.txt
+./Bai1 alice30.txt stopw.txt
 
 # Ví dụ 3: Sử dụng file thuchanh1.txt
-./Bai1 thuchanh1.txt stopw.txt result.txt
+./Bai1 thuchanh1.txt stopw.txt
 ```
 
 ### Xem kết quả:
