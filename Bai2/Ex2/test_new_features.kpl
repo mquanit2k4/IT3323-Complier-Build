@@ -1,0 +1,23 @@
+PROGRAM TestNewFeatures;
+CONST
+  msg = "Hello World\n";
+  data = b"Binary Data";
+VAR
+  x, y : INTEGER;
+  s : STRING;
+  b : BYTES;
+BEGIN
+  // This is a single line comment
+  x := 2 ** 10;  (* Power operator: 2^10 = 1024 *)
+  y := 17 % 5;   (* Modulo operator: 17 mod 5 = 2 *)
+  
+  s := "Test string";
+  
+  // Another single line comment
+  REPEAT
+    x := x - 1;
+  UNTIL x = 0;
+  
+  (* Traditional multi-line comment
+     still works as before *)
+END.
