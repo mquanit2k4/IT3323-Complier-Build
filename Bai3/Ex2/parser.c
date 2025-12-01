@@ -364,6 +364,7 @@ void compileStatement(void) {
   case SB_SEMICOLON:
   case KW_END:
   case KW_ELSE:
+  case KW_UNTIL:
     break;
     // Error occurs
   default:
@@ -599,6 +600,7 @@ void compileExpression3(void) {
   case SB_SEMICOLON:
   case KW_END:
   case KW_ELSE:
+  case KW_UNTIL:
   // Follow (For statement)
   case KW_TO:
   case KW_DO:
@@ -649,6 +651,7 @@ void compileTerm2(void) {
   case SB_SEMICOLON:
   case KW_END:
   case KW_ELSE:
+  case KW_UNTIL:
   // Follow (For statement)
   case KW_TO:
   case KW_DO:

@@ -19,6 +19,6 @@ BEGIN
     x, y := i, i + 1;
     CALL WriteI(x);
     CALL WriteI(y);
-    i := i + 1
+    i := i + 1;
   UNTIL i > 3
 END.
