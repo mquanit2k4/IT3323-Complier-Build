@@ -1,0 +1,24 @@
+PROGRAM TestNewFeatures;
+VAR
+  x, y, z : INTEGER;
+  i, count : INTEGER;
+BEGIN
+  (* Test multi-variable assignment *)
+  x, y, z := 1, 2, 3;
+  
+  (* Test repeat-until statement *)
+  count := 0;
+  REPEAT
+    count := count + 1;
+    CALL WriteI(count)
+  UNTIL count = 5;
+  
+  (* Combined test *)
+  i := 1;
+  REPEAT
+    x, y := i, i + 1;
+    CALL WriteI(x);
+    CALL WriteI(y);
+    i := i + 1
+  UNTIL i > 3
+END.

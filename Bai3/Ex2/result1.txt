@@ -1,0 +1,136 @@
+Parsing a Program ....
+1-1:KW_PROGRAM
+1-9:TK_IDENT(TestNewFeatures)
+1-24:SB_SEMICOLON
+Parsing a Block ....
+2-1:KW_VAR
+3-3:TK_IDENT(x)
+3-4:SB_COMMA
+3-6:TK_IDENT(y)
+3-7:SB_COMMA
+3-9:TK_IDENT(z)
+3-11:SB_COLON
+3-13:KW_INTEGER
+3-20:SB_SEMICOLON
+4-3:TK_IDENT(i)
+4-4:SB_COMMA
+4-6:TK_IDENT(count)
+4-12:SB_COLON
+4-14:KW_INTEGER
+4-21:SB_SEMICOLON
+Parsing subtoutines ....
+Subtoutines parsed ....
+5-1:KW_BEGIN
+Parsing an assign statement ....
+7-3:TK_IDENT(x)
+7-4:SB_COMMA
+7-6:TK_IDENT(y)
+7-7:SB_COMMA
+7-9:TK_IDENT(z)
+7-11:SB_ASSIGN
+Parsing an expression
+7-14:TK_NUMBER(1)
+Expression parsed
+7-15:SB_COMMA
+Parsing an expression
+7-17:TK_NUMBER(2)
+Expression parsed
+7-18:SB_COMMA
+Parsing an expression
+7-20:TK_NUMBER(3)
+Expression parsed
+Assign statement parsed ....
+7-21:SB_SEMICOLON
+Parsing an assign statement ....
+10-3:TK_IDENT(count)
+10-9:SB_ASSIGN
+Parsing an expression
+10-12:TK_NUMBER(0)
+Expression parsed
+Assign statement parsed ....
+10-13:SB_SEMICOLON
+Parsing a repeat statement ....
+11-3:KW_REPEAT
+Parsing an assign statement ....
+12-5:TK_IDENT(count)
+12-11:SB_ASSIGN
+Parsing an expression
+12-14:TK_IDENT(count)
+12-20:SB_PLUS
+12-22:TK_NUMBER(1)
+Expression parsed
+Assign statement parsed ....
+12-23:SB_SEMICOLON
+Parsing a call statement ....
+13-5:KW_CALL
+13-10:TK_IDENT(WriteI)
+13-16:SB_LPAR
+Parsing an expression
+13-17:TK_IDENT(count)
+Expression parsed
+13-22:SB_RPAR
+Call statement parsed ....
+14-3:KW_UNTIL
+Parsing an expression
+14-9:TK_IDENT(count)
+Expression parsed
+14-15:SB_EQ
+Parsing an expression
+14-17:TK_NUMBER(5)
+Expression parsed
+Repeat statement parsed ....
+14-18:SB_SEMICOLON
+Parsing an assign statement ....
+17-3:TK_IDENT(i)
+17-5:SB_ASSIGN
+Parsing an expression
+17-8:TK_NUMBER(1)
+Expression parsed
+Assign statement parsed ....
+17-9:SB_SEMICOLON
+Parsing a repeat statement ....
+18-3:KW_REPEAT
+Parsing an assign statement ....
+19-5:TK_IDENT(x)
+19-6:SB_COMMA
+19-8:TK_IDENT(y)
+19-10:SB_ASSIGN
+Parsing an expression
+19-13:TK_IDENT(i)
+Expression parsed
+19-14:SB_COMMA
+Parsing an expression
+19-16:TK_IDENT(i)
+19-18:SB_PLUS
+19-20:TK_NUMBER(1)
+Expression parsed
+Assign statement parsed ....
+19-21:SB_SEMICOLON
+Parsing a call statement ....
+20-5:KW_CALL
+20-10:TK_IDENT(WriteI)
+20-16:SB_LPAR
+Parsing an expression
+20-17:TK_IDENT(x)
+Expression parsed
+20-18:SB_RPAR
+Call statement parsed ....
+20-19:SB_SEMICOLON
+Parsing a call statement ....
+21-5:KW_CALL
+21-10:TK_IDENT(WriteI)
+21-16:SB_LPAR
+Parsing an expression
+21-17:TK_IDENT(y)
+Expression parsed
+21-18:SB_RPAR
+Call statement parsed ....
+21-19:SB_SEMICOLON
+Parsing an assign statement ....
+22-5:TK_IDENT(i)
+22-7:SB_ASSIGN
+Parsing an expression
+22-10:TK_IDENT(i)
+22-12:SB_PLUS
+22-14:TK_NUMBER(1)
+23-3:Invalid term!
