@@ -133,4 +133,19 @@ Parsing an expression
 22-10:TK_IDENT(i)
 22-12:SB_PLUS
 22-14:TK_NUMBER(1)
-23-3:Invalid term!
+Expression parsed
+Assign statement parsed ....
+22-15:SB_SEMICOLON
+23-3:KW_UNTIL
+Parsing an expression
+23-9:TK_IDENT(i)
+Expression parsed
+23-11:SB_GT
+Parsing an expression
+23-13:TK_NUMBER(3)
+Expression parsed
+Repeat statement parsed ....
+24-1:KW_END
+Block parsed!
+24-4:SB_PERIOD
+Program parsed!
